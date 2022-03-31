@@ -2,7 +2,7 @@
 #include<math.h>
 int main(){
     int choice;
-    printf("Escolha qual tipo de conta voce deseja:\n1 - Soma\n2 - Subtracao\n3 - Multiplicacao\n4 - Divisao\n");
+    printf("Escolha qual tipo de conta voce deseja:\n1 - Soma\n2 - Subtracao\n3 - Multiplicacao\n4 - DivisaoN\n5 - Elevado a potencia\n6 - Raiz quadrada\n7 - Seno\n8 - Cosseno\n9 - Tangente\n10 - Secante\n12 - Cotangente\n13 - Sair\n");
     scanf("%i", &choice);
     if(choice == 1){
         float a, b, result;
