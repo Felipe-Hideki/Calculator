@@ -43,12 +43,12 @@ int main(){
     else if(choice == 5){
         int n1, n2, r;
         printf("Em manutencao\n");
-        /*printf("Me diga o primeiro numero da potencia:\n");
+        printf("Me diga o primeiro numero da potencia:\n");
         scanf("%i", &n1);
         printf("Me diga o 2 numero da potencia:\n");
         scanf("%i", &n2);
-        r = (n1 ^ n2);
-        printf("O resultado da potencia e: %i\n", r);*/
+        r = pow(n1, n2);
+        printf("O resultado da potencia e: %i\n", r);
     }
     else if(choice == 6){
         float a, result;
