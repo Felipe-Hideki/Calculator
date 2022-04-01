@@ -106,6 +106,6 @@ int main(){
         printf("Opcao invalida\n");
     }
     printf("Aperte qualquer tecla para sair\n");
-    //_getch();
+    scanf(" %s");
     return 0 ;
 }
